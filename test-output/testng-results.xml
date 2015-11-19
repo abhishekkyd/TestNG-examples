@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Examples" duration-ms="7517" started-at="2015-11-19T06:42:22Z" finished-at="2015-11-19T06:42:30Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="6668" started-at="2015-11-19T06:42:22Z" finished-at="2015-11-19T06:42:29Z">
+      <class name="com.automation.testngexamples.ParallelTestExample">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automation.testngexamples.ParallelTestExample@67b0eb2c]" name="beforeTest" is-config="true" duration-ms="2522" started-at="2015-11-19T12:12:22Z" finished-at="2015-11-19T12:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testngexamples.ParallelTestExample@67b0eb2c]" name="googleSearch" duration-ms="4141" started-at="2015-11-19T12:12:25Z" finished-at="2015-11-19T12:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xebia india]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.testngexamples.ParallelTestExample@67b0eb2c]" name="afterTest" is-config="true" duration-ms="1" started-at="2015-11-19T12:12:29Z" finished-at="2015-11-19T12:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.testngexamples.ParallelTestExample -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="7517" started-at="2015-11-19T06:42:22Z" finished-at="2015-11-19T06:42:30Z">
+      <class name="com.automation.testngexamples.ParallelTestExample">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automation.testngexamples.ParallelTestExample@664bb5d8]" name="beforeTest" is-config="true" duration-ms="1572" started-at="2015-11-19T12:12:22Z" finished-at="2015-11-19T12:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testngexamples.ParallelTestExample@664bb5d8]" name="googleSearch" duration-ms="5936" started-at="2015-11-19T12:12:24Z" finished-at="2015-11-19T12:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xebia india]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.testngexamples.ParallelTestExample@664bb5d8]" name="afterTest" is-config="true" duration-ms="1" started-at="2015-11-19T12:12:30Z" finished-at="2015-11-19T12:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.testngexamples.ParallelTestExample -->
+    </test> <!-- test2 -->
+  </suite> <!-- TestNG Examples -->
+</testng-results>

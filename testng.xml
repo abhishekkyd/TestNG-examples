@@ -1,0 +1,12 @@
+<suite name="TestNG Examples" verbose="1" parallel="tests"
+	thread-count="5">
+	<test name="test1">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="http://www.google.com" />
+		<parameter name="keyword" value="xebia india" />
+		<parameter name="title" value="Google" />
+		<classes>
+			<class name="com.automation.testngexamples.ParallelTestExample" />
+		</classes>
+	</test>
+</suite>

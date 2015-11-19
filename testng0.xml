@@ -1,0 +1,9 @@
+<suite name="TestNG Examples" verbose="1">
+	<test name="test1">
+		<parameter name="url" value="http://www.google.com" />
+		<parameter name="title" value="Google" />
+		<classes>
+			<class name="com.automation.testngexamples.ParameterizedTestExample" />
+		</classes>
+	</test>
+</suite>
