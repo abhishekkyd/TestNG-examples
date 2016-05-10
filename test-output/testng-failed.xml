@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [TestNG Examples]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="keyword" value="xebia india"/>
+  <parameter name="title" value="Google"/>
+  <parameter name="url" value="http://www.google.com"/>
+  <test name="test1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="keyword" value="xebia india"/>
+    <parameter name="title" value="Google"/>
+    <parameter name="url" value="http://www.google.com"/>
     <classes>
-      <class name="com.automation.testngexamples.MyFirstTestNGClass">
+      <class name="com.automation.testngexamples.ParallelTestExample">
         <methods>
-          <include name="googleSearch2"/>
+          <include name="googleSearch"/>
           <include name="beforeTest"/>
-          <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.automation.testngexamples.MyFirstTestNGClass -->
+      </class> <!-- com.automation.testngexamples.ParallelTestExample -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- test1(failed) -->
+  <test name="test2(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="keyword" value="xebia india"/>
+    <parameter name="title" value="Google"/>
+    <parameter name="url" value="http://www.google.com"/>
+    <classes>
+      <class name="com.automation.testngexamples.ParallelTestExample">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.automation.testngexamples.ParallelTestExample -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [TestNG Examples] -->
