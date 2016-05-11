@@ -1,0 +1,19 @@
+<suite name="Suite-Listeners" parallel="none">
+
+ <listeners>
+
+ <listener class-name="com.automation.testngexamples.listeners.Listener"></listener>
+
+ </listeners>
+
+ <test name="Batch-Listeners">
+
+ <classes>
+
+ <class name="com.automation.testngexamples.listeners.TestListener" />
+
+ </classes>
+
+ </test> 
+
+</suite>

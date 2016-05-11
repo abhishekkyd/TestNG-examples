@@ -1,49 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Suite-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Batch-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.main]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.main]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.automation.testngexamples.listeners.TestListener]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.afterMethod]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15" started-at="2016-05-10T13:25:57Z" finished-at="2016-05-10T13:25:57Z">
+  <suite name="Suite-Listeners" duration-ms="24" started-at="2016-05-11T05:35:55Z" finished-at="2016-05-11T05:35:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15" started-at="2016-05-10T13:25:57Z" finished-at="2016-05-10T13:25:57Z">
-      <class name="com.automation.testngexamples.SampleTestNGClass">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
+    <test name="Batch-Listeners" duration-ms="24" started-at="2016-05-11T05:35:55Z" finished-at="2016-05-11T05:35:56Z">
+      <class name="com.automation.testngexamples.listeners.TestListener">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.testngexamples.listeners.TestListener@1b40d5f0]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2016-05-11T11:05:55Z" finished-at="2016-05-11T11:05:56Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="f" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.automation.testngexamples.listeners.TestListener@1b40d5f0]" name="main" duration-ms="4" started-at="2016-05-11T11:05:56Z" finished-at="2016-05-11T11:05:56Z">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.main]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.automation.testngexamples.listeners.TestListener]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.testngexamples.listeners.TestListener@1b40d5f0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-11T11:05:56Z" finished-at="2016-05-11T11:05:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.afterMethod]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.automation.testngexamples.SampleTestNGClass@6e3c1e69]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-05-10T18:55:57Z" finished-at="2016-05-10T18:55:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.automation.testngexamples.SampleTestNGClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.automation.testngexamples.listeners.TestListener -->
+    </test> <!-- Batch-Listeners -->
+  </suite> <!-- Suite-Listeners -->
 </testng-results>
