@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite-Listeners]" parallel="none">
-  <listeners>
-    <listener class-name="com.automation.testngexamples.listeners.Listener"/>
-  </listeners>
-  <test name="Batch-Listeners">
+<suite name="Failed suite [TestNG Examples]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="keyword" value="google india"/>
+  <parameter name="title" value="Google"/>
+  <parameter name="url" value="http://www.google.com"/>
+  <test name="test1">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="keyword" value="pitney bowes india"/>
+    <parameter name="title" value="Google"/>
+    <parameter name="url" value="http://www.google.com"/>
     <classes>
-      <class name="com.automation.testngexamples.listeners.TestListener"/>
+      <class name="com.automation.testngexamples.selenium.ParallelTestExample"/>
     </classes>
-  </test> <!-- Batch-Listeners -->
-</suite> <!-- Failed suite [Suite-Listeners] -->
+  </test> <!-- test1 -->
+  <test name="test2">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="keyword" value="google india"/>
+    <parameter name="title" value="Google"/>
+    <parameter name="url" value="http://www.google.com"/>
+    <classes>
+      <class name="com.automation.testngexamples.selenium.ParallelTestExample"/>
+    </classes>
+  </test> <!-- test2 -->
+</suite> <!-- Failed suite [TestNG Examples] -->

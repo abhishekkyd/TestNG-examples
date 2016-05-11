@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[About to begin executing Suite Suite-Listeners]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test Batch-Listeners]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : TestListener.beforeMethod]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : TestListener.main]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : TestListener.main]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in com.automation.testngexamples.listeners.TestListener]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : TestListener.afterMethod]]>
-    </line>
   </reporter-output>
-  <suite name="Suite-Listeners" duration-ms="24" started-at="2016-05-11T05:35:55Z" finished-at="2016-05-11T05:35:56Z">
+  <suite name="TestNG Examples" duration-ms="16023" started-at="2016-05-11T08:17:53Z" finished-at="2016-05-11T08:18:09Z">
     <groups>
     </groups>
-    <test name="Batch-Listeners" duration-ms="24" started-at="2016-05-11T05:35:55Z" finished-at="2016-05-11T05:35:56Z">
-      <class name="com.automation.testngexamples.listeners.TestListener">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.testngexamples.listeners.TestListener@1b40d5f0]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2016-05-11T11:05:55Z" finished-at="2016-05-11T11:05:56Z">
+    <test name="test2" duration-ms="10723" started-at="2016-05-11T08:17:53Z" finished-at="2016-05-11T08:18:04Z">
+      <class name="com.automation.testngexamples.selenium.ParallelTestExample">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automation.testngexamples.selenium.ParallelTestExample@129a8472]" name="beforeTest" is-config="true" duration-ms="1755" started-at="2016-05-11T13:47:53Z" finished-at="2016-05-11T13:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:com.automation.testngexamples.listeners.TestListener@1b40d5f0]" name="main" duration-ms="4" started-at="2016-05-11T11:05:56Z" finished-at="2016-05-11T11:05:56Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testngexamples.selenium.ParallelTestExample@129a8472]" name="googleSearch" duration-ms="8958" started-at="2016-05-11T13:47:55Z" finished-at="2016-05-11T13:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[google india]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : TestListener.main]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in com.automation.testngexamples.listeners.TestListener]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.testngexamples.listeners.TestListener@1b40d5f0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-11T11:05:56Z" finished-at="2016-05-11T11:05:56Z">
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.testngexamples.selenium.ParallelTestExample@129a8472]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-11T13:48:04Z" finished-at="2016-05-11T13:48:04Z">
           <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : TestListener.afterMethod]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.automation.testngexamples.listeners.TestListener -->
-    </test> <!-- Batch-Listeners -->
-  </suite> <!-- Suite-Listeners -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.testngexamples.selenium.ParallelTestExample -->
+    </test> <!-- test2 -->
+    <test name="test1" duration-ms="16023" started-at="2016-05-11T08:17:53Z" finished-at="2016-05-11T08:18:09Z">
+      <class name="com.automation.testngexamples.selenium.ParallelTestExample">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.automation.testngexamples.selenium.ParallelTestExample@3c5a99da]" name="beforeTest" is-config="true" duration-ms="10497" started-at="2016-05-11T13:47:53Z" finished-at="2016-05-11T13:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.testngexamples.selenium.ParallelTestExample@3c5a99da]" name="googleSearch" duration-ms="5521" started-at="2016-05-11T13:48:03Z" finished-at="2016-05-11T13:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pitney bowes india]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.testngexamples.selenium.ParallelTestExample@3c5a99da]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T13:48:09Z" finished-at="2016-05-11T13:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.testngexamples.selenium.ParallelTestExample -->
+    </test> <!-- test1 -->
+  </suite> <!-- TestNG Examples -->
 </testng-results>

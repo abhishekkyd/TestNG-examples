@@ -1,11 +1,6 @@
 package com.automation.testngexamples.java;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -22,7 +17,9 @@ public class DataProvider1 {
 		return new Object[][] { 
 			{ 10, 20 }, 
 			{ 100, 110 }, 
-			{ 200, 210 } 
+			{ 200, 210 }, 
+			{ 300, 310 }, 
+			{ 400, 210 } 
 		};
 	}
 

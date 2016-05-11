@@ -45,7 +45,7 @@ public class TestAnnotationExample2 {
 
     @AfterTest
     public void afterTest() {
-	// driver.quit();
+	 driver.quit();
     }
 
 }

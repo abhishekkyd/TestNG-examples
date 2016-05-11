@@ -6,7 +6,16 @@
 		<parameter name="keyword" value="pitney bowes india" />
 		<parameter name="title" value="Google" />
 		<classes>
-			<class name="com.automation.testngexamples.ParallelTestExample" />
+			<class name="com.automation.testngexamples.selenium.ParallelTestExample" />
+		</classes>
+	</test>
+	<test name="test2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://www.google.com" />
+		<parameter name="keyword" value="google india" />
+		<parameter name="title" value="Google" />
+		<classes>
+			<class name="com.automation.testngexamples.selenium.ParallelTestExample" />
 		</classes>
 	</test>
 </suite>
